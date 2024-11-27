@@ -77,7 +77,7 @@ int diameterOfBinaryTree(TreeNode* root)
 
 int main() 
 {
-    cout << "Enter the level-order traversal of the binary tree (use -1 for null nodes): ";
+    cout << "Enter the binary tree using level-order input: ";
     string input;
     getline(cin, input);
     istringstream iss(input);
